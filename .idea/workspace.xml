@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bec98f3a-d78b-4d76-b817-06a193d84917" name="Default Changelist" comment="фывайцукяам">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +43,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SGStoreTest_v0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="tpzrp-client" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -56,7 +56,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601377436675</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="фывайцукяам">
+      <created>1601382859538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601382859538</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,22 +103,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="фывайцукяам" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1601376993698">
+    <state x="137" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601383474165">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601376993698" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1601376993698">
+    <state x="137" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601383474165" />
+    <state x="412" y="160" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601383463994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601376993698" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1601376993698">
+    <state x="412" y="160" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1601383463994" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601383305868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601376993698" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1601376993698">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601383305868" />
+    <state width="637" height="222" key="GridCell.Tab.0.bottom" timestamp="1601383950033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601376993698" />
+    <state width="637" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601383950033" />
+    <state width="637" height="222" key="GridCell.Tab.0.center" timestamp="1601383950033">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="222" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601383950033" />
+    <state width="637" height="222" key="GridCell.Tab.0.left" timestamp="1601383950033">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="222" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601383950033" />
+    <state width="637" height="222" key="GridCell.Tab.0.right" timestamp="1601383950033">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="222" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601383950033" />
+    <state width="637" height="222" key="GridCell.Tab.1.bottom" timestamp="1601383934897">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601383934897" />
+    <state width="637" height="222" key="GridCell.Tab.1.center" timestamp="1601383934897">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601383934897" />
+    <state width="637" height="222" key="GridCell.Tab.1.left" timestamp="1601383934897">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601383934897" />
+    <state width="637" height="222" key="GridCell.Tab.1.right" timestamp="1601383934897">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601383934897" />
     <state x="115" y="3" key="SettingsEditor" timestamp="1601376763078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

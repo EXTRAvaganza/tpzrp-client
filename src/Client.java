@@ -1,21 +1,31 @@
-import java.net.ServerSocket;
+import javax.net.ssl.SSLSocketFactory;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.Socket;
-import java.io.InputStream;
-import java.io.DataInputStream;
 
 
 public class Client {
     public static void main(String args[]) throws Exception {
-        ServerSocket sersock = new ServerSocket(5000);
-        System.out.println("Client is ready...");
-        Socket sock = sersock.accept();
-        InputStream istream = sock.getInputStream();
-        DataInputStream dstream = new DataInputStream(istream);
-        String message2 = dstream.readLine();
-        System.out.println(message2);
-        dstream.close();
-        istream.close();
-        sock.close();
-        sersock.close();
+        System.setProperty("javax.net.ssl.trustStore", "test.jks");
+        Socket socket = ((SSLSocketFactory) SSLSocketFactory.getDefault()).createSocket("localhost", 4444);
+        BufferedReader socketBufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+        PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
+        BufferedReader commandPromptBufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("please enter a username: ");
+        printWriter.println(commandPromptBufferedReader.readLine());
+        String message = null;
+        while (true) {
+            System.out.println("please enter a message to send to server: ");
+            message = commandPromptBufferedReader.readLine();
+            if (message.equals("quit")) {
+                printWriter.println(message);
+                socket.close();
+                break;
+            }
+            printWriter.println(message);
+            System.out.println("message reply from server: ");
+            System.out.println(socketBufferedReader.readLine());
+        }
     }
 }

@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bec98f3a-d78b-4d76-b817-06a193d84917" name="Default Changelist" comment="фывайцукяам">
+      <change afterPath="$PROJECT_DIR$/test.jks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +38,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iBJy6FvZRXaYzCyAG9f4dYUepj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SGStoreTest_v0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -99,6 +107,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="фывайцукяам" />
     <option name="LAST_COMMIT_MESSAGE" value="фывайцукяам" />
   </component>
@@ -115,22 +124,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601383305868" />
-    <state width="637" height="222" key="GridCell.Tab.0.bottom" timestamp="1601383950033">
+    <state width="1323" height="193" key="GridCell.Tab.0.bottom" timestamp="1601415966654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601383950033" />
-    <state width="637" height="222" key="GridCell.Tab.0.center" timestamp="1601383950033">
+    <state width="1323" height="193" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601415966654" />
+    <state width="1323" height="193" key="GridCell.Tab.0.center" timestamp="1601415966654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="222" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601383950033" />
-    <state width="637" height="222" key="GridCell.Tab.0.left" timestamp="1601383950033">
+    <state width="1323" height="193" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601415966654" />
+    <state width="1323" height="193" key="GridCell.Tab.0.left" timestamp="1601415966654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="222" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601383950033" />
-    <state width="637" height="222" key="GridCell.Tab.0.right" timestamp="1601383950033">
+    <state width="1323" height="193" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601415966654" />
+    <state width="1323" height="193" key="GridCell.Tab.0.right" timestamp="1601415966654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="222" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601383950033" />
+    <state width="1323" height="193" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601415966654" />
     <state width="637" height="222" key="GridCell.Tab.1.bottom" timestamp="1601383934897">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -147,10 +156,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="637" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601383934897" />
-    <state x="115" y="3" key="SettingsEditor" timestamp="1601376763078">
+    <state x="115" y="0" key="SettingsEditor" timestamp="1601412882120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="115" y="3" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601376763078" />
+    <state x="115" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601412882120" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1601377410548">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

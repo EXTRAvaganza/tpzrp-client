@@ -21,8 +21,7 @@ public class Client {
             ImageIO.write(bImage, "jpg", bos);
             byte[] data = bos.toByteArray();
             int length = data.length;
-            printWriter.write(length);
-            printWriter.flush();
+            out.writeInt(length);
             for (int i = 0; i <= length / 10000; i++) {
                 if (length - i * 10000 > 10000) {
                     out.write(data, i * 10000, 10000);

@@ -1,6 +1,15 @@
+import Client.Client;
+
+import java.io.IOException;
+
 public class main {
     public static void main(String[] args) {
-        System.out.println("test");
+        try {
+            new Client("localhost",4444).close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
-    валфдтофаофдопдф
+
 }

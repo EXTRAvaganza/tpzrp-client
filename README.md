@@ -6,3 +6,5 @@ client module LAB №1
 Current value:
 HOST: "localhost"
 PORT: 4444
+
+2. Run src/main/main().

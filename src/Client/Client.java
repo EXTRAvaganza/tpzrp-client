@@ -1,6 +1,7 @@
 package Client;
 
 import javax.imageio.ImageIO;
+import javax.net.SocketFactory;
 import javax.net.ssl.SSLSocketFactory;
 import javax.swing.*;
 import java.awt.*;
@@ -20,16 +21,34 @@ public class Client {
         this.HOST = host;
         this.PORT = port;
         System.setProperty("javax.net.ssl.trustStore", "test.jks");
-        connectToServer();
+        connectToServer(true);
         sendImage("D:\\image.jpg");
     }
+
+    public Client(String host,int port,String imagePath) {
+        this.HOST = host;
+        this.PORT = port;
+        connectToServer(false);
+        sendImage(imagePath);
+    }
+    public Client(String host,int port,String imagePath,String certPath) {
+        this.HOST = host;
+        this.PORT = port;
+        System.setProperty("javax.net.ssl.trustStore", certPath);
+        connectToServer(true);
+        sendImage(imagePath);
+    }
+
     public void close() throws IOException {
         socket.close();
     }
-    public void connectToServer()
+    public void connectToServer(boolean ssl)
     {
         try {
-            socket = ((SSLSocketFactory) SSLSocketFactory.getDefault()).createSocket(HOST, PORT);
+            if(ssl)
+                socket = ((SSLSocketFactory) SSLSocketFactory.getDefault()).createSocket(HOST, PORT);
+            else
+                socket = SocketFactory.getDefault().createSocket(HOST,PORT);
         } catch (IOException e) {
             e.printStackTrace();
         }
